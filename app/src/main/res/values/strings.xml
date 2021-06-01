@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">MY Fuel App</string>
+    <string name="title_activity_home_page">HomePage</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_on_board_signup">OnBoardSignup</string>
+    <string name="verification_message_request">Press the Verify button to send a verification sms message to the number you registered with</string>
+    <string name="messagepriority">AFRICASTKNG</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="welcome_page_message">WELCOME. THIS IS TOTAL\'S PETROL STATION FUEL APP. \n PLEASE NOTE THAT YOU CAN LOG IN USING AN EXISTING USER ACCOUNT. \n ###### LETS GET STARTED #######</string>
+    <string name="verification_message_sent">A six digit verification code has been sent to your phone number. If the app does not automatically detect the code, please fill in the code and press next</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="buypkg">Buy Package</string>
+    <string name="checkbalance">Check Balance</string>
+    <string name="consumption">Consumption</string>
+    <string name="offers">Offers</string>
+    <string name="validateenginetype">Specify Fuel type</string>
+    <string name="validatemodel">Select the model</string>
+    <string name="validatecc">Specify The Number of CCs</string>
+    <string name="validatemake">Specify The Make of The car</string>
+    <string name="validatereg">Specify the Vehicle Registration Number</string>
+    <string name="updatevehicle">Update Vehicle</string>
+    <string name="sambaza">Sambaza Fuel</string>
+    <string name="reports">Reports</string>
+    <string name="defaultcarstext">No Cars have been added yet.</string>
+    <string name="allcars">All Cars</string>
+    <string name="alltransactions">All Transactions</string>
+    <string name="feedbacklabel">Customer Feedback</string>
+    <string name="purchasefailed">Purchase Failed</string>
+    <string name="google_maps_api_key">AIzaSyC1oBtZ7QkyEyQRVC5fD6BrC2aYtF8NFqY</string>
+    <string name="feedbacktext">Share your Experience at this Fuel Station</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchor.erp.myfuelapp.Activities.CreateVehicle">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/container">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="10dp"
+                android:id="@+id/containertvaddcar">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tlregno"
+                        android:layout_marginTop="30dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="Vehicle Registration Number"
+                            android:layout_margin="20dp"
+                            android:id="@+id/tvregno"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:layout_margin="20dp"
+                        app:hintText="Select the make"
+                        android:layout_below="@id/tlregno"
+                        android:id="@+id/spnmake" />
+
+                    <com.toptoche.searchablespinnerlibrary.SearchableSpinner
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        app:hintText="Select The Model"
+                        android:layout_margin="20dp"
+                        android:layout_below="@id/spnmake"
+                        android:id="@+id/spnmodel"/>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_below="@id/spnmodel"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/tlengtype"
+                        android:layout_marginTop="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:layout_width="match_parent"
+                            android:layout_height="50dp"
+                            android:hint="Number of CCs"
+                            android:inputType="number"
+                            android:layout_margin="20dp"
+                            android:id="@+id/enginetype"/>
+
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <fr.ganfra.materialspinner.MaterialSpinner
+                        android:layout_width="match_parent"
+                        app:ms_enableFloatingLabel="true"
+                        app:ms_floatingLabelText="Fuel Type"
+                        app:ms_hint="Select The Fuel Type"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tlengtype"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="20dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginBottom="20dp"
+                        android:id="@+id/spnfueltype"/>
+
+                </RelativeLayout>
+
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="70dp"
+                android:layout_below="@id/containertvaddcar"
+                android:layout_margin="30dp"
+                style="@style/CustomButton"
+                android:text="Add car"
+                android:id="@+id/btnaddcar"/>
+
+        </RelativeLayout>
+
+    </ScrollView>
+
+</RelativeLayout>

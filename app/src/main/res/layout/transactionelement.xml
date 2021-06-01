@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="100dp"
+    android:background="@color/white"
+    android:layout_margin="10dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="Station : "
+        android:id="@+id/stationlabel"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Station name"
+        android:layout_toRightOf="@id/stationlabel"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/etstationname"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vehicle Fueled : "
+        android:layout_below="@id/stationlabel"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/vehiclelabel"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/vehiclelabel"
+        android:text="vehicle"
+        android:id="@+id/vehicle"
+        android:layout_marginLeft="10dp"
+        android:layout_below="@id/stationlabel"
+        android:layout_marginTop="10dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date of Transaction : "
+        android:layout_below="@id/vehiclelabel"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/black"
+        android:id="@+id/datelabel"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Date"
+        android:layout_below="@id/vehiclelabel"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/datelabel"
+        android:layout_marginLeft="10dp"
+        android:id="@+id/etdate"/>
+
+</RelativeLayout>

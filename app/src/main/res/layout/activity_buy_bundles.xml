@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.anchor.erp.myfuelapp.Activities.BuyBundles"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/bbtitle">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="SELECT FROM A CATEGORY BELOW"
+            android:layout_marginTop="30dp"
+            android:layout_marginBottom="20dp"/>
+
+    </RelativeLayout>
+
+    <ExpandableListView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/bundlecategory"
+        android:indicatorLeft="?android:attr/expandableListPreferredItemIndicatorRight"
+        android:divider="@color/black"
+        android:layout_below="@id/bbtitle"
+        android:dividerHeight="0.5dp"/>
+
+</RelativeLayout>
